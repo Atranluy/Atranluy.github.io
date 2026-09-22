@@ -1,0 +1,4 @@
+# ai.txt
+User-agent: *
+Disallow: /
+Content-Usage: no-ai-training

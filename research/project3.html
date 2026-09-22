@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Research — research and photography portfolio" />
+        <title>Hydrothermal vents</title>
+        <link rel="stylesheet" href="../css/style.css" />
+        <style>
+            /* Flexible text-figure layout styles */
+            .text-figure-layout {
+                display: flex;
+                gap: 3rem;
+                margin-bottom: 4rem;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+
+            .text-content {
+                flex: 1;
+                min-width: 300px;
+            }
+
+            .figure-content {
+                flex: 1;
+                min-width: 300px;
+            }
+
+            .figure-content img {
+                width: 100%;
+                height: auto;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            .figure-content figcaption {
+                margin-top: 0.5rem;
+                font-style: italic;
+                color: #555;
+                text-align: center;
+            }
+
+            /* Text-first layout (default) */
+            .text-first .text-content {
+                order: 1;
+            }
+
+            .text-first .figure-content {
+                order: 2;
+            }
+
+            /* Figure-first layout */
+            .figure-first .text-content {
+                order: 2;
+            }
+
+            .figure-first .figure-content {
+                order: 1;
+            }
+
+            /* Responsive adjustments */
+            @media (max-width: 768px) {
+                .text-figure-layout {
+                    flex-direction: column;
+                    gap: 2rem;
+                }
+                .text-first .text-content,
+                .figure-first .text-content {
+                    order: 1;
+                }
+                .text-first .figure-content,
+                .figure-first .figure-content {
+                    order: 2;
+                }
+            }
+
+            /* Cleaned up project hero styles */
+            .project-hero {
+                background-image: url("../images/dolphins.jpg");
+                background-size: cover;
+                background-position: center;
+                position: relative;
+                display: flex;
+                align-items: bottom;
+            }
+
+            .project-hero::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(0, 0, 0, 0);
+                z-index: 1;
+            }
+
+            .project-hero .section-heading {
+                position: relative;
+                z-index: 2;
+                color: white;
+                text-shadow: 1px 1px 3px rgba(0, 0, 0, 0, 0);
+                padding: 0 2rem;
+                max-width: 800px;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="site-header">
+            <nav class="navbar" aria-label="Primary navigation">
+                <a class="brand" href="../index.html"
+                    ><span class="brand-mark">∿</span><span>Mammals genomics </span></a
+                >
+                <div class="nav-links">
+                    <a href="../index.html">Home</a><a href="../research.html">Research</a
+                    ><a href="../photography.html">Photography</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="project-hero">
+                <div class="section-heading">
+                    <span class="kicker">Research</span>
+                    <h1 style="color: #f0f0f0">Mammals Genomics</h1>
+                    <p style="color: #f0f0f0">
+                        You will find a very short resume about mains findings on my postdocs projects on Dolphins
+                        species and Orangutans independently.
+                    </p>
+                </div>
+            </section>
+            <section class="page-shell">
+                <!-- Example 1: Text-first layout -->
+                <div class="text-figure-layout text-first">
+                    <div class="text-content">
+                        <h2>
+                            Whole-genome reveal Phylogeographic, Demographic and Adapation patterns in the Indo-Pacific
+                            Bottlenose dolphins <i>Tursiops aduncus</i>
+                        </h2>
+                        <p>
+                            I collaborate with Dr. Svenja Marfurt on her PhD project on <i>Tursiops aduncus</i>. Using
+                            whole-genome sequencing of individuals sampled along most of the Australian coastline, we
+                            examined population structure and adaptive divergence at a continental scale. Genome-wide
+                            variation tracked geography, consistent with a northern origin followed by two independent
+                            stepping-stone colonisations down the eastern and western coasts. Putatively adaptive loci,
+                            in contrast, clustered individuals by tropical waters regardless of geographic distance,
+                            indicating parallel adaptation and a tropical&ndash;temperate, potentially ecotype-like
+                            differentiation relevant to conservation planning under climate change. <br />
+                            <br />
+                            <a href="https://doi.org/10.1111/mec.70383">
+                               <b> Article in Molecular ecology, Marfurt et al., 2026 - 10.1111/mec.70383</b>
+                            </a>
+                            <br />
+                        </p>
+                    </div>
+                    <figure class="figure-content">
+                        <img src="../images/DSC05942.jpg" alt="Cold-water coral sample" />
+                        <figcaption>Stenella longirostris in Sataya reef - Egypt</figcaption>
+                    </figure>
+                </div>
+
+                <!-- Example 2: Figure-first layout -->
+                <div class="text-figure-layout figure-first">
+                    <figure class="figure-content">
+                        <img src="../images/DSC05945.jpg" alt="Research setup" />
+                        <figcaption>Stenella longirostris in Sataya reef - Egypt</figcaption>
+                    </figure>
+                    <div class="text-content">
+                        <h2>
+                            Speciation history among <i>Tursiops</i> species along the Australian coastline using
+                            Whole-genome
+                        </h2>
+                        <p>
+                            This is an <b>ongoing project</b> involving Whole-genome, sex chromosomes and mtDNA to fully
+                            resolve the speciation history of <i>T. adunus, T. truncatus</i> and
+                            <i>T. australis</i> around Australia coastline. This project is motivated by: (I) some
+                            <i>T. aduncus</i> display the mtDNA haplotype of <i>T. truncatus</i> or
+                            <i>T. australis</i> in specific locations while in autosomes they show no sign of
+                            introgression. (II) Resolving the divergence history of <i>T. australis</i> with
+                            <i>T. truncatus</i> by reusing WG of coastal/pelagic ecotype of <i>T. truncatus</i> from
+                            Louis et al., (2021).
+
+                            <br />
+                            <br />
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Example 3: Another text-first layout -->
+                <div class="text-figure-layout text-first">
+                    <div class="text-content">
+                        <h2><i>Sousa sahulensis</i> genomics using low-coverage whole-genome sequencing</h2>
+                        <p>
+                            I collaborate with Dr. Chabanne on this project exploring the population structure in the
+                            Australian humpback dolphin (<i>Sousa sahulensis</i>), using low-coverage whole-genome
+                            sequencing. <br />
+                            46 individuals sampled across five localities spanning more than 1,000 km of northwestern
+                            Australia. We found two highly differentiated populations separated by a genetic break
+                            between Port Hedland and Cygnet Bay, with related individuals clustering strongly within
+                            localities, indicating very limited dispersal. Inbreeding was detected in both populations
+                            but with contrasting signatures. Long runs of homozygosity in the southwestern population
+                            suggesting recent inbreeding, and short runs in the northeastern population consistent with
+                            an older bottleneck and small effective population size. These results highlight strong
+                            subdivision and isolation in this elusive species, underscoring the need for conservation
+                            management. <br />
+                            <br />
+                            Soon prepint available
+                        </p>
+                    </div>
+                    <figure class="figure-content">
+                        <img src="../images/DSC02190.jpg" alt="Microscope view" />
+                        <figcaption>Delphinus delphis off the brittany coast - France</figcaption>
+                    </figure>
+                </div>
+
+                <!-- Example 2: Figure-first layout -->
+                <div class="text-figure-layout figure-first">
+                    <figure class="figure-content">
+                        <img src="../images/DSC04214-Avec accentuation-Bruit.jpg" alt="Research setup" />
+                        <figcaption> Collared kingfisher in Philippines as i don't have Orangutans pictures</figcaption>
+                    </figure>
+                    <div class="text-content">
+                        <h2>
+                            Speciation history among <i>Tursiops</i> species along the Australian coastline using
+                            Whole-genome
+                        </h2>
+                        <p>
+                            This is my last <b>ongoing project</b> involving capture-data of the chromosome 21 on fecal
+                            material of Orangutans <i>Pongo</i> species across Sumatra and Borneo. The goal of this
+                            project is quite similar to the one on the Australian humpback dolphin
+                            <i>Sousa sahulensis</i> which is to infer dispersal/isolation aswell as relatedness,
+                            connectivity and maybe inbreeding.
+
+                            <br />
+                            <br />
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="site-footer">
+            <div class="footer-inner">
+                <span
+                    >© 2026 Adrien Tran Lu Y. All photographs and images are my original work and are protected by
+                    copyright. Unauthorized use, reproduction, or distribution is prohibited without written permission. </span
+                ><span> 2026</span>
+            </div>
+        </footer>
+    </body>
+</html>

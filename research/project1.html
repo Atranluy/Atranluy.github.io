@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Research — research and photography portfolio" />
+        <title>Cold-water coral genomics</title>
+        <link rel="stylesheet" href="../css/style.css" />
+        <style>
+            /* Flexible text-figure layout styles */
+            .text-figure-layout {
+                display: flex;
+                gap: 3rem;
+                margin-bottom: 4rem;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+
+            .text-content {
+                flex: 1;
+                min-width: 300px;
+            }
+
+            .figure-content {
+                flex: 1;
+                min-width: 300px;
+            }
+
+            .figure-content img {
+                width: 100%;
+                height: auto;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            .figure-content figcaption {
+                margin-top: 0.5rem;
+                font-style: italic;
+                color: #555;
+                text-align: center;
+            }
+
+            /* Text-first layout (default) */
+            .text-first .text-content {
+                order: 1;
+            }
+
+            .text-first .figure-content {
+                order: 2;
+            }
+
+            /* Figure-first layout */
+            .figure-first .text-content {
+                order: 2;
+            }
+
+            .figure-first .figure-content {
+                order: 1;
+            }
+
+            /* Responsive adjustments */
+            @media (max-width: 768px) {
+                .text-figure-layout {
+                    flex-direction: column;
+                    gap: 2rem;
+                }
+                .text-first .text-content,
+                .figure-first .text-content {
+                    order: 1;
+                }
+                .text-first .figure-content,
+                .figure-first .figure-content {
+                    order: 2;
+                }
+            }
+
+            /* Cleaned up project hero styles */
+            .project-hero {
+                background-image: url("../images/29137.jpg");
+                background-size: cover;
+                background-position: center;
+                position: relative;
+                display: flex;
+                align-items: bottom;
+            }
+
+            .project-hero::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(0, 0, 0, 0);
+                z-index: 1;
+            }
+
+            .project-hero .section-heading {
+                position: relative;
+                z-index: 2;
+                color: white;
+                text-shadow: 1px 1px 3px rgba(0, 0, 0, 0, 0);
+                padding: 0 2rem;
+                max-width: 800px;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="site-header">
+            <nav class="navbar" aria-label="Primary navigation">
+                <a class="brand" href="../index.html"
+                    ><span class="brand-mark">∿</span><span>Cold-water coral genomics</span></a
+                >
+                <div class="nav-links">
+                    <a href="../index.html">Home</a><a href="../research.html">Research</a
+                    ><a href="../photography.html">Photography</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="project-hero">
+                <div class="section-heading">
+                    <span class="kicker">Research</span>
+                    <h1 style="color: #f0f0f0">Cold-water coral genomics</h1>
+                    <p style="color: #f0f0f0">
+                        You will find a very short resume about mains findings on my postdoc project on cold-water
+                        corals species
+                    </p>
+                </div>
+            </section>
+            <span>(2019). Paysage du canyon de Lacaze-Duthiers. Ifremer. https://image.ifremer.fr/data/00620/73176/</span>
+            <section class="page-shell">
+                <!-- Example 1: Text-first layout -->
+                <div class="text-figure-layout text-first">
+                    <div class="text-content">
+                        <h2>Cryptic diversity and speciation continuum</h2>
+                        <p>
+                            Through international collaboration, we analyzed whole genomes of 144 cold-water coral
+                            individuals across four species. Our findings reveal that<i>Madrepora oculata</i> ,long
+                            considered cosmopolitan—comprises multiple cryptic lineages. Meanwhile,
+                            <i>Desmophyllum pertusum</i> and <i>D.dianthus</i> show no introgression despite sympatry,
+                            confirming their status as distinct sister species. Comparative analyses suggest these
+                            corals may initiate speciation at lower genomic divergence than most animals—patterns more
+                            comparable to plants than typical marine invertebrates. These results call for a systematic
+                            genomic revision of cold-water coral taxonomy to improve conservation strategies and
+                            diversity assessements. <br />
+                            <br />
+
+                            Preprint soon available.
+                        </p>
+                    </div>
+                    <figure class="figure-content">
+                        <img src="../images/Coral_pic1.jpg" alt="Cold-water coral sample" />
+                        <figcaption>Figure 1: live Madrepora oculata specimen collected during REDECOR26</figcaption>
+                    </figure>
+                </div>
+
+                <!-- Example 2: Figure-first layout -->
+                <div class="text-figure-layout figure-first">
+                    <figure class="figure-content">
+                        <img src="../images/DSC07038-Avec accentuation-Bruit.jpg" alt="Research setup" />
+                        <figcaption>Live <i>D. pertusum polyps</i></figcaption>
+                    </figure>
+                    <div class="text-content">
+                        <h2>Phylogeographic Pattern of <i>Desmophyllum pertusum (Lophelia pertusa)</i></h2>
+                        <p>
+                            Using 182 whole genomes, we produced the first comprehensive view of the genetic diversity
+                            and connectivity in this flagship reef-building coral across the Atlantic. Population
+                            structure mirrors the Atlantic Meridional Overturning Circulation (AMOC), while regional
+                            patterns reveal contact zones between local lineages, shaped by glacial cycles. Evidence
+                            suggests post-Last Glacial Maximum recolonization from southern refugia, highlighting how
+                            spatial genetic diversity informs conservation and restoration priorities.
+                            <br />
+                            <br />
+
+                            Preprint soon available.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Example 3: Another text-first layout -->
+                <div class="text-figure-layout text-first">
+                    <div class="text-content">
+                        <h2>Small projects</h2>
+                        <p></p>
+                        <ul>
+                            <li>
+                                Clonality Effects in Cold-Water Corals: Assessed how clonality influences genetic
+                                similarity across technical replicates, distinct polyps, and clones, revealing potential
+                                mutation accumulation over time.<br />
+                                <br />
+                            </li>
+                            <li>
+                                High-Throughput Onboard Sequencing: Developed a rapid DNA-to-result pipeline (24h) for
+                                lineage assignment during the REDECOR2026 cruise, supporting real-time restoration
+                                monitoring. <br />
+                                <br />
+
+                                Stay tune for the preprints
+                            </li>
+                        </ul>
+                    </div>
+                    <figure class="figure-content">
+                        <img
+                            src="../images/DSC06973.jpg"
+                            alt="Microscope view"/>
+                        <figcaption><i>D. pertusum </i> skeleton</figcaption>
+                    </figure>
+                </div>
+            </section>
+        </main>
+        <footer class="site-footer">
+            <div class="footer-inner">
+                <span
+                    >© 2026 Adrien Tran Lu Y. All photographs and images are my original work and are protected by
+                    copyright. Unauthorized use, reproduction, or distribution is prohibited without written permission. </span
+                ><span> 2026</span>
+            </div>
+        </footer>
+    </body>
+</html>

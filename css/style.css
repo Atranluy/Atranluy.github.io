@@ -1,0 +1,568 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap");
+:root {
+  --deep-blue: #073b5c;
+  --navy: #06283d;
+  --teal: #0f9d9a;
+  --aqua: #8be2d4;
+  --foam: #e9f7f5;
+  --white: #ffffff;
+  --ink: #173042;
+  --muted: #627888;
+  --line: #d9e9eb;
+  --shadow: 0 18px 45px rgba(7, 59, 92, 0.12);
+  --display: "DM Sans", "Helvetica Neue", sans-serif;
+  --body: "Manrope", "Helvetica Neue", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--white);
+  font-family: var(--body);
+  line-height: 1.7;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.site-header {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.35rem clamp(1.25rem, 5vw, 5rem);
+  color: var(--white);
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1240px;
+  margin: auto;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  font: 700 1rem var(--display);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.brand-mark {
+  display: grid;
+  place-items: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  border-radius: 50%;
+  font-size: 0.78rem;
+}
+.nav-links {
+  display: flex;
+  gap: clamp(1rem, 3vw, 2.5rem);
+  align-items: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.nav-links a {
+  opacity: 0.86;
+  transition:
+    color 0.2s ease,
+    opacity 0.2s ease;
+}
+.nav-links a:hover,
+.nav-links a[aria-current="page"] {
+  color: var(--aqua);
+  opacity: 1;
+}
+.hero {
+  min-height: 680px;
+  display: flex;
+  align-items: flex-end;
+  padding: 9rem clamp(1.25rem, 8vw, 8rem) 6rem;
+  color: var(--white);
+  background: linear-gradient(135deg, #073b5c 0%, #0e7184 45%, #b6eee3 125%);
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(90deg, rgba(3, 27, 45, 0.84) 0%, rgba(3, 27, 45, 0.42) 0%, rgba(3, 27, 45, 0.06) 0%),
+    url("../images/banner.jpg") center/cover;
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 30%;
+  z-index: -1;
+  background: linear-gradient(transparent, rgba(3, 27, 45, 0.34));
+}
+.hero-content {
+  max-width: 760px;
+  animation: rise 0.8s ease both;
+}
+.eyebrow {
+  margin: 0 0 1rem;
+  color: var(--aqua);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: var(--display);
+  line-height: 1.08;
+  letter-spacing: -0.04em;
+}
+.hero h1 {
+  max-width: 700px;
+  font-size: clamp(3.5rem, 9vw, 7.4rem);
+}
+.hero h1 em {
+  color: var(--aqua);
+  font-style: normal;
+}
+.hero-intro {
+  max-width: 500px;
+  margin: 1.8rem 0 0;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  color: rgba(255, 255, 255, 0.85);
+}
+.page-shell {
+  max-width: 1600px;
+  margin: auto;
+  padding: 3.5rem clamp(1.25rem, 5vw, 4rem);
+}
+.section-heading {
+  max-width: 650px;
+  margin-bottom: 3.2rem;
+}
+.section-heading h1,
+.section-heading h2 {
+  font-size: clamp(1.5rem, 5vw, 4.5rem);
+  color: var(--deep-blue);
+}
+.section-heading p {
+  margin: 1rem 0 0;
+  color: var(--muted);
+}
+.kicker {
+  color: var(--teal);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+.project-list {
+  border-top: 1px solid var(--line);
+}
+.project-card {
+  display: grid;
+  grid-template-columns: 4rem 1fr auto;
+  gap: 1.5rem;
+  align-items: center;
+  padding: 1.65rem 0;
+  border-bottom: 1px solid var(--line);
+  transition:
+    padding 0.25s ease,
+    background 0.2s ease;
+}
+.project-card:hover {
+  padding-left: 1rem;
+  background: linear-gradient(90deg, var(--foam), transparent);
+}
+.project-number {
+  color: var(--teal);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+.project-card h2 {
+  font-size: clamp(1.4rem, 3vw, 2.15rem);
+  color: var(--deep-blue);
+}
+.project-card p {
+  margin: 0.35rem 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.arrow {
+  color: var(--teal);
+  font-size: 1.5rem;
+  transition: transform 0.2s;
+}
+.project-card:hover .arrow {
+  transform: translateX(5px);
+}
+.project-hero {
+  padding: 10rem clamp(1.25rem, 8vw, 8rem) 5rem;
+  background: var(--foam);
+}
+.project-hero h1 {
+  max-width: 800px;
+  color: var(--deep-blue);
+  font-size: clamp(3rem, 7vw, 6rem);
+}
+.project-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(220px, 0.6fr);
+  gap: clamp(2rem, 7vw, 7rem);
+  align-items: start;
+}
+.project-image {
+  width: 100%;
+  border-radius: 2px;
+  box-shadow: var(--shadow);
+}
+.prose p {
+  color: var(--muted);
+}
+.external-link,
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--teal);
+  color: var(--deep-blue);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition:
+    background 0.2s,
+    color 0.2s,
+    transform 0.2s;
+}
+.external-link:hover,
+.button:hover {
+  color: var(--white);
+  background: var(--teal);
+  transform: translateY(-2px);
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1.5rem;
+}
+.gallery + .gallery {
+  margin-top: 1.5rem;
+}
+.album {
+  grid-column: span 6;
+  margin: 0;
+}
+.album:not(.album--wide):not(.album--tall):not(.album--pair):not(.mosaic-item-1):not(.mosaic-item-2):not(.mosaic-item-3):not(.mosaic-item-4):nth-child(3n) {
+  grid-column: span 8;
+}
+.album img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  border-radius: 2px;
+  transition:
+    transform 0.35s,
+    box-shadow 0.35s;
+}
+.album:hover img {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow);
+}
+.album figcaption {
+  padding-top: 0.8rem;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+.album figcaption strong {
+  display: block;
+  color: var(--deep-blue);
+  font-size: 0.95rem;
+}
+
+/* Panoramic photo — full width row */
+.album--wide {
+  grid-column: span 12;
+}
+.album--wide img {
+  aspect-ratio: 21 / 9;
+}
+
+/* Vertical photo — narrower column, taller aspect ratio, three per row */
+.album--tall {
+  grid-column: span 4;
+}
+.album--tall img {
+  aspect-ratio: 3 / 4;
+}
+
+/* Duo of photos — two large images sharing a row */
+.album--pair {
+  grid-column: span 6;
+}
+.album--pair img {
+  aspect-ratio: 4 / 3;
+}
+
+.site-footer {
+  padding: 2rem clamp(1.25rem, 5vw, 4rem);
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  max-width: 1100px;
+  margin: auto;
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@media (max-width: 650px) {
+  .site-header {
+    padding-top: 1rem;
+  }
+  .nav-links {
+    gap: 0.8rem;
+    font-size: 0.67rem;
+  }
+  .brand {
+    font-size: 0.8rem;
+  }
+  .brand-mark {
+    width: 1.9rem;
+    height: 1.9rem;
+  }
+  .hero {
+    min-height: 620px;
+    padding-bottom: 4rem;
+  }
+  .project-card {
+    grid-template-columns: 2.2rem 1fr auto;
+    gap: 0.7rem;
+  }
+  .project-card p {
+    display: none;
+  }
+  .project-layout {
+    grid-template-columns: 1fr;
+  }
+  .album,
+  .album:nth-child(3n) {
+    grid-column: span 12;
+  }
+  .album--wide,
+  .album--tall,
+  .album--pair {
+    grid-column: span 12;
+  }
+  .footer-inner {
+    flex-direction: column;
+  }
+}
+.tabs-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem auto 1rem;
+}
+
+.tabs-nav label {
+    padding: 0.5rem 1.25rem;
+    border: 1px solid #ccc;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    letter-spacing: 0.03em;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.tabs-nav label:hover {
+    background: #f0f0f0;
+}
+
+/* Hide all panels by default */
+.gallery-panel {
+    display: none;
+}
+
+/* Show the matching panel when its radio is checked */
+#tab-landscape:checked ~ .gallery-panel[data-group="landscape"],
+#tab-underwater:checked ~ .gallery-panel[data-group="underwater"],
+#tab-wildlife:checked ~ .gallery-panel[data-group="wildlife"] {
+    display: block;
+}
+
+/* Active tab styling */
+#tab-landscape:checked ~ .tabs-nav label[for="tab-landscape"],
+#tab-underwater:checked ~ .tabs-nav label[for="tab-underwater"],
+#tab-wildlife:checked ~ .tabs-nav label[for="tab-wildlife"] {
+    background: #1a1a1a;
+    color: #fff;
+    border-color: #1a1a1a;
+}
+.gallery-panel .section-heading {
+    margin: 0.5rem auto 0.5rem;
+    text-align: center;
+}
+
+.gallery-panel .section-heading h2 {
+    margin: 0.25rem 0;
+}
+/*
+ * Mosaic controls: adjust --mosaic-col-1, --mosaic-col-2, and --mosaic-col-3
+ * to resize the left, middle, and right columns. Change --mosaic-height
+ * to resize the complete two-row composition. The middle and right photos
+ * span both rows; the first two photos remain stacked in the left column.
+ */
+.gallery--mosaic {
+    --mosaic-col-1: 1fr;
+    --mosaic-col-2: 0.78fr;
+    --mosaic-col-3: 1.08fr;
+    --mosaic-height: clamp(32rem, 62vw, 46rem);
+    --mosaic-gap: 1.5rem;
+
+    display: grid;
+    grid-template-columns: minmax(0, var(--mosaic-col-1)) minmax(0, var(--mosaic-col-2)) minmax(0, var(--mosaic-col-3));
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    grid-template-areas:
+        "left-top middle right"
+        "left-bottom middle right";
+    gap: var(--mosaic-gap);
+    height: var(--mosaic-height);
+    margin-top: var(--mosaic-gap);
+}
+
+.gallery--mosaic .album {
+    display: flex;
+    min-width: 0;
+    min-height: 0;
+    flex-direction: column;
+    grid-column: auto;
+    grid-row: auto;
+    margin: 0;
+    overflow: hidden;
+}
+
+.gallery--mosaic .mosaic-item-1 { grid-area: left-top; }
+.gallery--mosaic .mosaic-item-2 { grid-area: left-bottom; }
+.gallery--mosaic .mosaic-item-3 { grid-area: middle; }
+.gallery--mosaic .mosaic-item-4 { grid-area: right; }
+
+.gallery--mosaic .mosaic-media {
+    min-width: 0;
+    min-height: 0;
+    flex: 1 1 auto;
+    overflow: hidden;
+}
+
+.gallery--mosaic .album img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 0;
+    flex: none;
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 2px;
+}
+
+@media (max-width: 800px) {
+    .gallery--mosaic {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas:
+            "left-top"
+            "left-bottom"
+            "middle"
+            "right";
+        height: auto;
+    }
+
+    .gallery--mosaic .album {
+        grid-area: auto;
+    }
+
+    .gallery--mosaic .mosaic-item-1 { grid-area: left-top; }
+    .gallery--mosaic .mosaic-item-2 { grid-area: left-bottom; }
+    .gallery--mosaic .mosaic-item-3 { grid-area: middle; }
+    .gallery--mosaic .mosaic-item-4 { grid-area: right; }
+
+    .gallery--mosaic .mosaic-media {
+        flex: none;
+    }
+
+    .gallery--mosaic .album img {
+        height: auto;
+        aspect-ratio: 4 / 3;
+    }
+}
+
+/* ===== COMPREHENSIVE IMAGE PROTECTION ===== */
+img {
+  pointer-events: none !important;
+  user-select: none !important;
+  -webkit-user-drag: none !important;
+  -webkit-touch-callout: none !important;
+  cursor: default !important;
+}
+
+/* Allow interaction with links that contain images */
+a img {
+  pointer-events: auto !important;
+  cursor: pointer !important;
+}
+
+/* Special cases for your specific elements */
+.profile-photo img,
+.project-card img,
+.research-img img {
+  pointer-events: none !important;
+  -webkit-user-drag: none !important;
+}
+
+
+
+
+/* Disable clicks on ALL images (gallery + banner) */
+.project-hero,
+.hero,
+.gallery img,
+.album img,
+.project-image,
+.mosaic-media img {
+  pointer-events: none !important;
+  user-select: none !important;
+  -webkit-user-drag: none !important;
+  -webkit-touch-callout: none !important;
+  cursor: default !important;
+}

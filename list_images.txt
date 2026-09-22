@@ -1,0 +1,140 @@
+total 124972
+-rw-r--r-- 1 adrien adrien  2152730 May  5  2022 190419152103208_01_1080i9.jpg
+-rw-r--r-- 1 adrien adrien   513549 Sep 10 14:43 190522103400549_01_1080i11.jpg
+-rw-r--r-- 1 adrien adrien  2036234 May  5  2022 190523095501122_15_1080i13.jpg
+-rw-r--r-- 1 adrien adrien 26176122 Sep 15 01:40 29137.jpg
+-rw-r--r-- 1 adrien adrien   883740 Sep 10 14:43 banner25.jpg
+-rw-r--r-- 1 adrien adrien   883740 Sep 10 14:43 banner2.jpg
+-rw-r--r-- 1 adrien adrien   682232 Sep 10 14:43 banner33.jpg
+-rw-r--r-- 1 adrien adrien  1364447 Sep 10 14:43 banner38.jpg
+-rw-r--r-- 1 adrien adrien  1364447 Sep 10 14:43 banner3.jpg
+-rw-r--r-- 1 adrien adrien   587267 Sep 10 16:38 banner.jpg
+-rw-r--r-- 1 adrien adrien   613228 Sep 10 14:43 Coral_pic1.jpg
+-rw-r--r-- 1 adrien adrien   411014 Sep 10 14:43 dolphins.jpg
+-rw-r--r-- 1 adrien adrien   268417 Sep 10 14:43 DSC00930-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien   433902 Sep 10 14:43 DSC00949-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien   460156 Sep 10 14:43 DSC01203-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien   277030 Sep 10 14:43 DSC01311-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien   916844 Sep 10 14:43 DSC01580-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien   337585 Sep 10 14:43 DSC01628-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien    82941 Sep 10 14:43 DSC02052.jpg
+-rw-r--r-- 1 adrien adrien   186443 Sep 10 14:43 DSC02061.jpg
+-rw-r--r-- 1 adrien adrien   484396 Sep 10 14:43 DSC02130-Modifier.jpg
+-rw-r--r-- 1 adrien adrien  1196721 Sep 10 14:43 DSC02190.jpg
+-rw-r--r-- 1 adrien adrien   501766 Sep 10 14:43 DSC02199-Modifier.jpg
+-rw-r--r-- 1 adrien adrien   426405 Sep 10 14:43 DSC02221-Modifier - Copie.jpg
+-rw-r--r-- 1 adrien adrien   450943 Sep 10 14:43 DSC02224-Modifier.jpg
+-rw-r--r-- 1 adrien adrien   608952 Sep 10 14:43 DSC02284-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien   706912 Sep 10 14:43 DSC02300.jpg
+-rw-r--r-- 1 adrien adrien   540954 Sep 10 14:43 DSC02365-Modifier.jpg
+-rw-r--r-- 1 adrien adrien   402944 Sep 10 14:43 DSC02368-Modifier.jpg
+-rw-r--r-- 1 adrien adrien   506514 Sep 10 14:43 DSC02385-Modifier-2.jpg
+-rw-r--r-- 1 adrien adrien   336512 Sep 10 14:43 DSC02394-Modifier-2.jpg
+-rw-r--r-- 1 adrien adrien   523931 Sep 10 14:43 DSC02413-Modifier.jpg
+-rw-r--r-- 1 adrien adrien   257822 Sep 10 14:43 DSC03110-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien   596562 Sep 10 14:43 DSC03221.jpg
+-rw-r--r-- 1 adrien adrien   795392 Sep 10 14:43 DSC03342-Modifier.jpg
+-rw-r--r-- 1 adrien adrien  1371458 Sep 10 14:43 DSC03448-Modifier.jpg
+-rw-r--r-- 1 adrien adrien   707170 Sep 10 14:43 DSC03451-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien   965692 Sep 10 14:43 DSC03455-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien  1150492 Sep 10 14:43 DSC03458-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien   574975 Sep 10 14:43 DSC03608-Modifier.jpg
+-rw-r--r-- 1 adrien adrien   386179 Sep 10 14:43 DSC03729-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien   623256 Sep 10 14:43 DSC03731-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien   569874 Sep 10 14:43 DSC03841-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien   760563 Sep 10 14:43 DSC03851-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien  1070926 Sep 10 14:43 DSC03872-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien   501322 Sep 10 14:43 DSC03882-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien  1189535 Sep 10 14:43 DSC03886-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien  1381409 Sep 10 14:43 DSC03899-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien  1539440 Sep 10 14:43 DSC03900-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien   405820 Sep 10 14:43 DSC03916-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien   340006 Sep 10 14:43 DSC03942-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien   381664 Sep 10 14:43 DSC03944-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien   399370 Sep 10 14:43 DSC03946-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien  1135119 Sep 10 14:43 DSC04111-Avec accentuation-Bruit1.jpg
+-rw-r--r-- 1 adrien adrien  1192879 Sep 10 14:43 DSC04166.jpg
+-rw-r--r-- 1 adrien adrien  1179207 Sep 10 14:43 DSC041671.jpg
+-rw-r--r-- 1 adrien adrien  1264642 Sep 10 14:43 DSC04181-Avec accentuation-Bruit-2.jpg
+-rw-r--r-- 1 adrien adrien  3854759 Nov 29  2023 DSC04214-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien  1146125 Sep 10 14:43 DSC04316-Avec accentuation-Bruit-2.jpg
+-rw-r--r-- 1 adrien adrien   486489 Sep 10 14:43 DSC04396-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien  1252329 Sep 10 14:43 DSC04403-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien   444891 Sep 10 14:43 DSC04436-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien   789071 Sep 10 14:43 DSC04438-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien   457458 Sep 10 14:43 DSC04623-Avec accentuation-Bruit-2.jpg
+-rw-r--r-- 1 adrien adrien   844295 Sep 10 14:43 DSC04689.jpg
+-rw-r--r-- 1 adrien adrien  1017550 Sep 10 14:43 DSC04697-2.jpg
+-rw-r--r-- 1 adrien adrien  1132914 Sep 10 14:43 DSC04702.jpg
+-rw-r--r-- 1 adrien adrien  1077679 Sep 10 14:43 DSC04705.jpg
+-rw-r--r-- 1 adrien adrien   905739 Sep 10 14:43 DSC04831-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien   683124 Sep 10 14:43 DSC04856.jpg
+-rw-r--r-- 1 adrien adrien   678312 Sep 10 14:43 DSC04919.jpg
+-rw-r--r-- 1 adrien adrien   753032 Sep 10 14:43 DSC04952.jpg
+-rw-r--r-- 1 adrien adrien   835165 Sep 10 14:43 DSC04957-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien   872234 Sep 10 14:43 DSC05043-2.jpg
+-rw-r--r-- 1 adrien adrien   190086 Sep 10 14:43 DSC05067-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien   473569 Sep 10 14:43 DSC05097-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien   699904 Sep 10 14:43 DSC05134.jpg
+-rw-r--r-- 1 adrien adrien   570630 Sep 10 14:43 DSC05243-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien   500592 Sep 10 14:43 DSC05247-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien  1065308 Sep 10 14:43 DSC05548.jpg
+-rw-r--r-- 1 adrien adrien   265444 Sep 10 14:43 DSC05588-Panorama.jpg
+-rw-r--r-- 1 adrien adrien   406146 Sep 10 14:43 DSC05861.jpg
+-rw-r--r-- 1 adrien adrien  1475288 Sep 10 14:43 DSC05873.jpg
+-rw-r--r-- 1 adrien adrien   491161 Sep 10 14:43 DSC05942.jpg
+-rw-r--r-- 1 adrien adrien   612764 Sep 10 14:43 DSC05945.jpg
+-rw-r--r-- 1 adrien adrien   725261 Sep 10 14:43 DSC06526.jpg
+-rw-r--r-- 1 adrien adrien   606930 Sep 10 14:43 DSC06579.jpg
+-rw-r--r-- 1 adrien adrien   287352 Sep 10 14:43 DSC06973 - Copie.jpg
+-rw-r--r-- 1 adrien adrien   441441 Sep 15 01:34 DSC06973.jpg
+-rw-r--r-- 1 adrien adrien   386427 Sep 10 14:43 DSC07038-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien   943189 Sep 10 14:43 DSC07157.jpg
+-rw-r--r-- 1 adrien adrien   314157 Sep 10 14:43 DSC07189-2.jpg
+-rw-r--r-- 1 adrien adrien   996894 Sep 10 14:43 DSC07802.jpg
+-rw-r--r-- 1 adrien adrien   329537 Sep 10 14:43 DSC07843-Avec accentuation-Bruit.jpg
+-rw-r--r-- 1 adrien adrien  1684637 Sep 10 14:43 DSC07998.jpg
+-rw-r--r-- 1 adrien adrien   508618 Sep 10 14:43 DSC08037.jpg
+-rw-r--r-- 1 adrien adrien   180556 Sep 10 14:43 DSC08132.jpg
+-rw-r--r-- 1 adrien adrien   208474 Sep 10 14:43 DSC08339.jpg
+-rw-r--r-- 1 adrien adrien  1583357 Sep 10 14:43 DSC08713.jpg
+-rw-r--r-- 1 adrien adrien   937421 Sep 10 14:43 DSC09189.jpg
+-rw-r--r-- 1 adrien adrien   293692 Sep 10 14:43 DSC09814.jpg
+-rw-r--r-- 1 adrien adrien  1135218 Sep 10 14:43 DSC09871-Modifier.jpg
+-rw-r--r-- 1 adrien adrien   682232 Sep 10 14:43 DSC09898-Panorama-2-Modifier.jpg
+-rw-r--r-- 1 adrien adrien  1015765 Sep 10 14:43 DSC09922-Modifier.jpg
+-rw-r--r-- 1 adrien adrien   992746 Sep 10 14:43 DSC09934-Modifier-2.jpg
+-rw-r--r-- 1 adrien adrien   801724 Sep 10 14:43 DSC09948-Panorama.jpg
+-rw-r--r-- 1 adrien adrien  1650621 Sep 17 01:07 Figure1_V3_2_Colorblind.png
+-rw-r--r-- 1 adrien adrien    10542 Sep 18 00:16 Google_Scholar_logo.svg.webp
+-rw-r--r-- 1 adrien adrien     8803 Sep 18 00:14 inaturalist-logo-png_seeklogo-381899.png
+-rw-r--r-- 1 adrien adrien  1332534 Sep 10 14:43 landscape10.jpg
+-rw-r--r-- 1 adrien adrien  1597741 Sep 10 14:43 landscape11.jpg
+-rw-r--r-- 1 adrien adrien   498766 Sep 10 14:43 landscape12.jpg
+-rw-r--r-- 1 adrien adrien   406213 Sep 10 14:43 landscape13.jpg
+-rw-r--r-- 1 adrien adrien  1265339 Sep 10 14:43 landscape14.jpg
+-rw-r--r-- 1 adrien adrien   204278 Sep 10 14:43 landscape15.jpg
+-rw-r--r-- 1 adrien adrien   201793 Sep 10 14:43 landscape1.jpg
+-rw-r--r-- 1 adrien adrien   396023 Sep 10 14:43 landscape2.jpg
+-rw-r--r-- 1 adrien adrien   293573 Sep 10 14:43 landscape3.jpg
+-rw-r--r-- 1 adrien adrien   941008 Sep 10 14:43 landscape4.jpg
+-rw-r--r-- 1 adrien adrien  1695719 Sep 10 14:43 landscape5.jpg
+-rw-r--r-- 1 adrien adrien  1234792 Sep 10 14:43 landscape6.jpg
+-rw-r--r-- 1 adrien adrien   663744 Sep 10 14:43 landscape7.jpg
+-rw-r--r-- 1 adrien adrien   465409 Sep 10 14:43 landscape8.jpg
+-rw-r--r-- 1 adrien adrien  1557370 Sep 10 14:43 landscape9.jpg
+-rw-rw-r-- 1 adrien adrien        0 Sep 22 12:18 list_images.txt
+-rw-r--r-- 1 adrien adrien      968 Sep 18 00:16 Octicons-mark-github.svg
+-rw-r--r-- 1 adrien adrien   283242 Sep 10 14:43 pano1.jpg
+-rw-r--r-- 1 adrien adrien   113014 Sep 10 14:43 pano2.jpg
+-rw-r--r-- 1 adrien adrien    16574 Sep 18 00:23 png-orcid-logo.png
+-rw-r--r-- 1 adrien adrien    20800 Sep 18 00:16 pngtree-instagram-icon-png-image_6315974.png
+-rw-r--r-- 1 adrien adrien   861431 Sep  8 02:18 profile_atly.png
+-rw-r--r-- 1 adrien adrien   494320 Sep 10 14:43 project2.jpg
+-rw-r--r-- 1 adrien adrien    16388 Sep 18 00:21 twitter.png
+-rw-r--r-- 1 adrien adrien   868779 Sep 10 14:43 uw1.jpg
+-rw-r--r-- 1 adrien adrien  1124120 Sep 10 14:43 uw2.jpg
+-rw-r--r-- 1 adrien adrien   493509 Sep 10 14:43 uw3.jpg
+-rw-r--r-- 1 adrien adrien   676388 Sep 10 14:43 uw4.jpg
+-rw-r--r-- 1 adrien adrien   500565 Sep 10 14:43 uw5.jpg
+-rw-r--r-- 1 adrien adrien   676080 Sep 10 14:43 uw.jpg
